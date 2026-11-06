@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R. Ricci Khan | Quantitative & Data Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-mono: "Fira Code", monospace, monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    header { margin-bottom: 2.5rem; }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .subtitle { color: var(--accent); font-family: var(--font-mono); font-size: 0.95rem; }
+    
+    .terminal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      margin-bottom: 2.5rem;
+    }
+    .prompt { color: var(--accent); }
+    
+    section { margin-bottom: 2.5rem; }
+    h2 { font-size: 1.25rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1rem; }
+    
+    .project-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .project-title { font-weight: 600; color: var(--text); }
+    .project-desc { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.25rem; }
+    .tag { display: inline-block; background: #0284c7; color: #fff; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; margin-top: 0.5rem; }
+
+    footer { text-align: center; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>R. Ricci Khan</h1>
+      <p class="subtitle">B.Sc. Computer Science & Economics Double Major @ UWI</p>
+    </header>
+
+    <div class="terminal-card">
+      <p><span class="prompt">user@riarrkhan-dev:~$</span> cat focus.json</p>
+      <p style="color: var(--text-muted); margin-top: 0.5rem;">
+        {<br>
+        &nbsp;&nbsp;"interests": ["Econometrics", "Data Analytics", "Quantitative Modeling"],<br>
+        &nbsp;&nbsp;"current_stack": ["Python", "SQL", "Git"],<br>
+        &nbsp;&nbsp;"status": "Building foundational technical & academic depth"<br>
+        }
+      </p>
+    </div>
+
+    <section>
+      <h2>About</h2>
+      <p style="color: var(--text-muted);">
+        Exploring the intersection of computer science, economic theory, and data analytics. Focused on developing robust technical skills in Python and database systems to analyze markets, build data pipelines, and conduct quantitative research.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="project-card">
+        <div class="project-title">T&T Macroeconomic Data Dashboard</div>
+        <div class="project-desc">Phase 1 portfolio project focusing on extracting, cleaning, and visualizing public economic indicators for Trinidad & Tobago.</div>
+        <span class="tag">In Progress / Python & SQL</span>
+      </div>
+    </section>
+
+    <footer>
+      <p>Connect: 
+        <a href="https://github.com/riarrkhan-dev" target="_blank">GitHub</a> | 
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+        <a href="mailto:riariccikhan@outlook.com">Email</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
